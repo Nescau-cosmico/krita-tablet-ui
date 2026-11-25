@@ -1,0 +1,30 @@
+# Android packages & build outputs (>100 MB APKs go to GitHub Releases)
+apks/
+*.apk
+*.aab
+*.idsig
+
+# Krita out-of-source builds, installs, and CI caches
+_build/
+_install/
+_packaging/
+build/
+cache/
+ccache/
+wd/
+wd-*/
+
+# Local dependency management & Python virtualenvs
+krita/krita-deps-management/
+krita/venv/
+krita/branch-corrected-deps.yml
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.user

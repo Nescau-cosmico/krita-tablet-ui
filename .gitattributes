@@ -1,0 +1,4 @@
+# Keep Unix LF line endings on Android Gradle wrapper and shell scripts even when cloned on Windows
+*.sh text eol=lf
+**/gradlew text eol=lf
+*.qml text eol=lf
